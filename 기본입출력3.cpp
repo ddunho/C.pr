@@ -28,7 +28,12 @@ int main(void)
 		{
 			printf("입력이 잘못되었습니다.\n")
 		}
-		printf("프로그램을 종료하시겠습니까? (y/n) ")
+		printf("프로그램을 종료하시겠습니까? (y/n) ");
+		scanf("%c", &o);
+		if (o == 'n' || o == "N")
+		{
+			continue;
+		}
 	}
 	return 0;
 }
