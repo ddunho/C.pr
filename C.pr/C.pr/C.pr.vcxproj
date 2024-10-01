@@ -131,7 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello,world!.cpp" />
-    <ClCompile Include="출력기본.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

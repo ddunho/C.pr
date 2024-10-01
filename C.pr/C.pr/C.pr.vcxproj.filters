@@ -21,8 +21,5 @@
     <ClCompile Include="hello,world!.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="출력기본.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
