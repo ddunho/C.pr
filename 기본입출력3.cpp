@@ -34,6 +34,11 @@ int main(void)
 		{
 			continue;
 		}
+		else if (o == 'y' || o == 'Y')
+		{
+			break;
+		}
+
 	}
 	return 0;
 }
