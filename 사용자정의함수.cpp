@@ -5,7 +5,13 @@ int hour;
 int minute;
 int minuteAdd;
 
-int counter()
+void 0counter() //void는 반환값이 없을때
+{
+	minute += minuteAdd;
+	hour += minute / 60;
+	minute %= 60;
+	hour %= 24;
+}
 
 int main(void)
 {
