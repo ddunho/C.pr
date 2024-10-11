@@ -13,6 +13,15 @@ int smallest(int number)
 		number -= 10000;
 		count++;
 	}
+	while (number >= 5000)
+	{
+		number -= 5000;
+		count++;
+	}
+	while (number >= 1000)
+	{
+
+	}
 }
 
 int main(void)
