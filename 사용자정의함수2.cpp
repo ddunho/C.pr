@@ -20,7 +20,13 @@ int smallest(int number)
 	}
 	while (number >= 1000)
 	{
-
+		number -= 1000;
+		count++;
+	}
+	while (number >= 500)
+	{
+		number -= 500;
+		count++;
 	}
 }
 
