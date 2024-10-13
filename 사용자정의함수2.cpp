@@ -34,6 +34,16 @@ int smallest(int number)
 		count++;
 	}
 	while (number >= 50)
+	{
+		number -= 50;
+		count++;
+	}
+	while (number >= 10)
+	{
+		number -= 10;
+		count++;
+	}
+	return count;
 }
 
 int main(void)
