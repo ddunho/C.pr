@@ -28,6 +28,12 @@ int smallest(int number)
 		number -= 500;
 		count++;
 	}
+	while (number >= 100)
+	{
+		number -= 100;
+		count++;
+	}
+	while (number >= 50)
 }
 
 int main(void)
