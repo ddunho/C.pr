@@ -13,6 +13,16 @@ int getDays(int month, int day)
 		{
 			sum += 30;
 		}
-
+		else
+		{
+			sum += 31;
+		}
 	}
+	return sum + day;
+}
+
+int main(void)
+{
+	int month, day;
+	
 }
