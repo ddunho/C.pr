@@ -24,5 +24,8 @@ int getDays(int month, int day)
 int main(void)
 {
 	int month, day;
+	scanf("%d %d", &month, &day);
+	printf("1월 1일부터 해당 날짜까지의 거리는 %d입니다.", getDays(month, day));
+	return 0;
 	
 }
