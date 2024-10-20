@@ -9,6 +9,14 @@ int print(int a)
 		{
 			printf("%d ", j + 1);
 		}
-		printf()
+		printf("\n");
 	}
+}
+
+int main(void)
+{
+	int a;
+	scanf("%d", &a);
+	print(a);
+	return 0;
 }
