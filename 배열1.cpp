@@ -21,8 +21,11 @@ int main(void)
 		scanf("%d", &array[i]);
 		if (min > array[i])
 		{
-
+			min = array[i];
+			index = i;
 		}
 	}
+	printf("가장 작은 값은 %d입니다. 그리고 %d번째에 있습니다.\n", min, index + 1)
+	
 	return 0;
 }
