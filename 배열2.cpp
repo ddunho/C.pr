@@ -9,6 +9,10 @@ int main(void)
 	evenMax = 0;
 	for (i = 0; i < NUMBER; i++)
 	{
-		scanf()
+		scanf("%d", &array[i]);
+		if (array[i] % 2 == 0)
+		{
+
+		}
 	}
 }
