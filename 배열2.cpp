@@ -12,7 +12,17 @@ int main(void)
 		scanf("%d", &array[i]);
 		if (array[i] % 2 == 0)
 		{
-
+			if (evenMax < array[i])
+			{
+				evenMax = array[i];
+			}
+		}
+		else
+		{
+			if (oddMax < array[i])
+			{
+				oddMax = array[i];
+			}
 		}
 	}
 }
