@@ -25,4 +25,6 @@ int main(void)
 			}
 		}
 	}
+	printf("%d %d", oddMax, evenMax);
+	return 0;
 }
