@@ -7,6 +7,10 @@ int main(void)
 	for (i = 1; i <= 9; i++)
 	{
 		printf("\n[ %d´Ü ]\n\n", i);
+		for (j = 1; j <= 9; j++)
+		{
+			
+		}
 		
 	}
 }
