@@ -9,8 +9,10 @@ int main(void)
 		printf("\n[ %d´Ü ]\n\n", i);
 		for (j = 1; j <= 9; j++)
 		{
-			
+			gugudan[i][j] = i * j;
+			printf("%d * %d = %d\n", i, j, gugudan[i][j]);
 		}
 		
 	}
+	return 0;
 }
