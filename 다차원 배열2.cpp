@@ -9,6 +9,12 @@ int main(void)
 	for (i = 0; i < 5; i++)
 	{
 		printf("%d번 학생의 수학, 여어 점수 : ", i + 1);
+		scanf("%d %d", &score[i][0], &score[i][i]);
+	}
+
+	for (i = 0; i < 5; i++)
+	{
+		
 	}
 
 	return 0;
